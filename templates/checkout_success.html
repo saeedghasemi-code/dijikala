@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}Checkout Success | Dijikala{% endblock %}
+
+{% block content %}
+    <div style="text-align: center; margin-top: 50px;">
+        <h2>پرداخت موفقیت‌آمیز بود</h2>
+        <p>سفارش شما با موفقیت ثبت شد.</p>
+        <a href="{% url 'home' %}" class="btn">بازگشت به صفحه اصلی</a>
+    </div>
+{% endblock %}
